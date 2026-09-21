@@ -137,10 +137,11 @@
       .container4 {
         
         height: 350px auto;
-        width: 95%;
+        width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        gap: 65px;
         flex-wrap: wrap;
       }
       .container4 img {
