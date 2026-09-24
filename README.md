@@ -102,7 +102,7 @@ The layout adapts to different screen sizes while maintaining readability and us
 ## 🌐 Live Website
 
 **Live Demo:**
-Add your deployed website link here.
+https://raj-kumar-05001.github.io/Little-Sprouts-Nursery/
 
 ## 🎯 Purpose of the Project
 
