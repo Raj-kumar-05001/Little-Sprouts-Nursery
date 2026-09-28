@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Little Sprouts Nursery</title> 
     <link rel="icon" type="image/png" href="./iamges/favIcon.png">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div id="navbar">
       <div class="logo"><img src="./iamges/logo.png" alt="" /></div>
+      
       <div class="options">
-        <ul>
+        <ul id="navlinks" class=" navlinks active">
           <li>Home</li>
           <li>About</li>
           <li>Gallery</li>
@@ -21,9 +22,9 @@
           <button>Know Me..</button>
         </ul>
       </div>
+      <button class="hamburger-button" onclick="openNavbar()"><i class="fa-solid fa-bars"></i></button>
     </div>
     <div class="hero-image">
-      <img src="./iamges/hero image1.png" alt="" />
       <div class="hero-image-box">
         <h1>Heading1 : Where Little Minds Grow Big Dreams</h1>
         <h1>Heading2 : Growing Happy Minds, One Day at a Time</h1>
@@ -141,7 +142,6 @@
       </div>
     </div>
      <div class="hero-image">
-      <img src="./iamges/hero image.png" alt="" />
       <div class="hero-image-box">
         <h1>Heading1 : Where Little Minds Grow Big Dreams</h1>
         <h1>Heading2 : Growing Happy Minds, One Day at a Time</h1>
@@ -189,5 +189,10 @@
             </div>
         </div>
     </footer>
+     <script>
+        function openNavbar() {
+            navlinks.classList.toggle("active")
+        }
+    </script>
   </body>
 </html>
