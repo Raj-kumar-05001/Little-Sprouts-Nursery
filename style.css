@@ -107,6 +107,7 @@
 .container3-text button {
   margin-left: 40%;
   margin-top: 50px;
+  margin-bottom: 20px;
   height: 40px;
   width: 130px;
   color: white;
@@ -187,6 +188,7 @@ h1 {
 }
 .last {
   margin-left: 60px;
+  margin-bottom: 20px;
 }
 .footer-container {
   height: 300px;
@@ -222,8 +224,14 @@ footer .footer-container .box2 img {
     align-items: center;
     justify-content: center;
   }
+  .container3-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .container3-text {
-    width: 95% auto;
+    width: 90%;
     padding: 0px;
   }
   .container5 {
@@ -233,8 +241,11 @@ footer .footer-container .box2 img {
     align-items: center;
   }
   .container5-images {
-    margin-left: 50px;
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
   }
   .container5 button {
     display: none;
@@ -277,7 +288,14 @@ footer .footer-container .box2 img {
     height: 100px;
     width: 200px;
   }
+  .container3-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .container3-image img{
+    margin-left: 40px;
     height: 250px;
     width: 305px;
   }
@@ -303,5 +321,12 @@ footer .footer-container .box2 img {
   .container5-images img{
     height: 200px;
   width: 310px
+  }
+  .last {
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
