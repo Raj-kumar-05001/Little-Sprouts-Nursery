@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
-     <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
       integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
@@ -12,16 +12,42 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="../style.css" />
-</head>
-<body>
-      <div id="navbar">
+    <style>
+      #parent {
+        margin: 0px auto;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        column-gap: 10px;
+        gap: 16px; 
+        grid-template-rows: repeat(6, 1fr);
+      }
+      #parent div {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #parent div img {
+        margin: 7px;
+        width: 320px;
+        height: 200px;
+        background-size: 100% 100%;
+        border-radius: 20px;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
       <div class="logo"><img src="../iamges/logo.png" alt="" /></div>
 
       <div class="options">
         <ul id="navlinks" class="navlinks">
           <a href="../index.html"><li>Home</li></a>
           <a href="../Components/about.html"><li>About</li></a>
-          <li>Gallery</li>
+          <a href="../Components/gallery.html"><li>Gallery</li></a>
           <li>Plants</li>
           <li>Contact</li>
           <button>Know Me..</button>
@@ -31,17 +57,166 @@
         <i class="fa-solid fa-bars"></i>
       </button>
     </div>
-        
+    <div id="parent">
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw-5Hrquak3TKusCqpC6hvDrsvtawPRbDFWhC3oW43Aw&s"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://thumbs.dreamstime.com/b/plant-nursery-selling-herbs-spices-flowers-ornamental-plants-sembawang-singapore-66413331.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/082/275/845/small/a-man-is-tending-to-plants-in-a-greenhouse-free-photo.jpeg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://www.shutterstock.com/image-photo/large-number-healthy-young-plant-260nw-2702575129.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://media.istockphoto.com/id/1125436449/photo/flower-garden-greenhouse.jpg?s=612x612&w=0&k=20&c=Fd7QwcdVgzP44yimC266wW1OHJDJqz8qijZHtrmWWf0="
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTejcfsE4X8jmCUT-ZA-QvA9Yswht4zgzB9Mp4wAPBhuBLn9G7yXGwAZ4GT&s=10"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTejcfsE4X8jmCUT-ZA-QvA9Yswht4zgzB9Mp4wAPBhuBLn9G7yXGwAZ4GT&s=10"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4EZgHC7MoSvYyVkrN6TIm9_onZ999UmYjM1aG7nNSBsV-7P2e0mOisG4E&s=10"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://thumbs.dreamstime.com/b/plant-nursery-selling-herbs-spices-flowers-ornamental-plants-sembawang-singapore-66413331.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://thumbs.dreamstime.com/b/plant-nursery-selling-herbs-spices-flowers-ornamental-plants-sembawang-singapore-66413331.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://thumbs.dreamstime.com/b/garden-plant-nursery-image-hd-261054317.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://t3.ftcdn.net/jpg/02/35/48/90/360_F_235489007_Gpr40wSoP6Ei4XkCKXPaLGIvo3VagS0m.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://thumbs.dreamstime.com/b/garden-plant-nursery-image-hd-261054317.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://t3.ftcdn.net/jpg/02/35/48/90/360_F_235489007_Gpr40wSoP6Ei4XkCKXPaLGIvo3VagS0m.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://thumbs.dreamstime.com/b/young-spirea-plants-plastic-pots-seedling-trees-bushes-plant-nursery-144628655.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://thumbs.dreamstime.com/b/young-spirea-plants-plastic-pots-seedling-trees-bushes-plant-nursery-144628655.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://www.shutterstock.com/image-photo/large-number-healthy-young-plant-260nw-2702575129.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://media.istockphoto.com/id/1125436449/photo/flower-garden-greenhouse.jpg?s=612x612&w=0&k=20&c=Fd7QwcdVgzP44yimC266wW1OHJDJqz8qijZHtrmWWf0="
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTejcfsE4X8jmCUT-ZA-QvA9Yswht4zgzB9Mp4wAPBhuBLn9G7yXGwAZ4GT&s=10"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTejcfsE4X8jmCUT-ZA-QvA9Yswht4zgzB9Mp4wAPBhuBLn9G7yXGwAZ4GT&s=10"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4EZgHC7MoSvYyVkrN6TIm9_onZ999UmYjM1aG7nNSBsV-7P2e0mOisG4E&s=10"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTejcfsE4X8jmCUT-ZA-QvA9Yswht4zgzB9Mp4wAPBhuBLn9G7yXGwAZ4GT&s=10"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTejcfsE4X8jmCUT-ZA-QvA9Yswht4zgzB9Mp4wAPBhuBLn9G7yXGwAZ4GT&s=10"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4EZgHC7MoSvYyVkrN6TIm9_onZ999UmYjM1aG7nNSBsV-7P2e0mOisG4E&s=10"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://thumbs.dreamstime.com/b/plant-nursery-selling-herbs-spices-flowers-ornamental-plants-sembawang-singapore-66413331.jpg"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTejcfsE4X8jmCUT-ZA-QvA9Yswht4zgzB9Mp4wAPBhuBLn9G7yXGwAZ4GT&s=10"
+          alt=""
+        />
+      </div>
+    </div>
 
-
-
-
-
-
-
-
-
-       <footer>
+    <footer>
       <div class="footer-container">
         <div class="box1">
           <div>
@@ -84,6 +259,5 @@
         navlinks.classList.toggle("active");
       }
     </script>
-    
-</body>
+  </body>
 </html>
