@@ -43,6 +43,10 @@
   border: none;
   border-radius: 10px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 
 .hero-image {
   margin-top: 30px;
@@ -191,9 +195,10 @@ h1 {
   margin-bottom: 20px;
 }
 .footer-container {
+  border-radius: 10px 10px 0px 0px;
   height: 300px;
   width: 100%;
-  background-color: black;
+  background-color: rgb(3, 37, 3);
   color: white;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      .about-hero-image {
+          margin: 0px auto;
+          height: 500px;
+          max-width: 95%;
+          background-image: url(../iamges/hero\ image.png);
+          background-size: 100% 100%;
+          border-radius: 20px;
+      }
+      .about-container1 {
+          margin: 0px auto;
+          max-width: 95%;
+          min-height: 500px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+      }
+      .about-container1-text {
+          min-height: 500px;
+          width: 49%;
+          box-sizing: border-box;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          h1 {
+              font-size: 50px;
+              color: rgb(1, 65, 1);
+              font-weight:bolder;
+          }
+          p {
+              font-size: 23px;
+          }
+      }
+      .about-container1-text button {
+          height: 50px;
+          width: 200px;
+          font-size: large;
+          border-radius: 10px;
+          background-color: rgb(1, 65, 1);
+          color: white;
+      }
+      .about-container1-image {
+          height: 500px;
+          max-width: 49%;
+          box-sizing: border-box;
+          padding: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+      }
+      .image1 {
+          max-width: 100%;
+          height: 100%;
+          padding: 40px;
+           display: flex;
+          justify-content: center;
+          align-items: center;
+
+      }
+      .image1 img{
+          height: 300px;
+          width: 95%;
+          border-radius: 20px;
+      }
+
+      .about-container2 {
+          margin: 0px auto;
+          height: 500px;
+          max-width: 95%;
+          background-image: url(../iamges/about-banner1.png);
+          background-size: 100% 100%;
+          border-radius: 20px;
+          margin-bottom: 30px;
+      }
+       .about-container3 {
+          margin: 0px auto;
+          height: 500px;
+          max-width: 95%;
+          background-image: url(../iamges/about-banner2.png);
+          background-size: 100% 100%;
+          border-radius: 20px;
+      }
+      .about-container4 {
+          margin: 0px auto;
+          height: 500px;
+          max-width: 95%;
+          background-image: url(../iamges/about-banner3.png);
+          background-size: 100% 100%;
+          border-radius: 20px;
+          margin-bottom: 30px;
+      }
+      .about-container5 {
+          margin: 0px auto;
+          height: 500px;
+          max-width: 95%;
+          background-image: url(../iamges/about-banner4.png);
+          background-size: 100% 100%;
+          border-radius: 20px;
+          margin-bottom: 30px;
+      }
+      @media (max-width: 760px) {
+           .about-hero-image {
+          height: 250px;
+           }
+           .about-container1 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+      }
+      .about-container1-text {
+        padding: 0px;
+        width: 90%;
+      }
+      .about-container1-image {
+        height: 300px;
+          max-width: 95%;
+          padding: 0px;
+      }
+      .image1 img{
+          height: 200px;
+          width: 95%;
+      }
+       .about-container2 {
+        height: 250px;
+       }
+       .about-container3{
+        height: 250px;
+       }
+       .about-container4{
+        height: 250px;
+       }
+       .about-container5{
+        height: 250px;
+       }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="logo"><img src="../iamges/logo.png" alt="" /></div>
+
+      <div class="options">
+        <ul id="navlinks" class="navlinks">
+          <a href="../index.html"><li>Home</li></a>
+          <a href="../Components/about.html"><li>About</li></a>
+          <li>Gallery</li>
+          <li>Plants</li>
+          <li>Contact</li>
+          <button>Know Me..</button>
+        </ul>
+      </div>
+      <button class="hamburger-button" onclick="openNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+    <div class="about-hero-image"></div>
+
+    <div class="about-container1">
+      <div class="about-container1-text">
+        <h1>Our Story</h1>
+        <p>
+          Little Sprouts Nursery was founded with a simple belief that every
+          child is naturally curious, creative, and ready to explore the world
+          around them. We provide a warm, welcoming and nature-inspired
+          environment where children can learn through play, discovery and
+          meaningful everyday experiences.
+        </p>
+        <button>Know More...</button>
+      </div>
+      <div class="about-container1-image">
+        <div class="image1">
+          <img
+            src="https://t3.ftcdn.net/jpg/21/01/37/32/360_F_2101373248_nLcenR2F8CnS1h0AiL9gfBgcBwkxoPXC.jpg"
+            alt="image"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="about-container2"></div>
+    <div class="about-container3"></div>
+
+    <div class="about-container1">
+      <div class="about-container1-image">
+        <div class="image1">
+          <img
+            src="https://t3.ftcdn.net/jpg/21/01/37/32/360_F_2101373248_nLcenR2F8CnS1h0AiL9gfBgcBwkxoPXC.jpg"
+            alt="image"
+          />
+        </div>
+      </div>
+      <div class="about-container1-text">
+        <h1>Learning Beyond the Classroom</h1>
+        <p>
+          Nature provides countless opportunities for children to observe,
+          explore and ask questions. Our outdoor and gardening activities help
+          children connect with plants, flowers and the natural world in a fun
+          and engaging way.
+        </p>
+      </div>
+    </div>
+    <div class="about-container4"></div>
+    <div class="about-container5"></div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="box1">
+          <div>
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Our Programs</li>
+              <li>Activities</li>
+              <li>Gallery</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Contact Us</li>
+              <li>Why Choose Us</li>
+              <li>Our Teachers</li>
+              <li>Learning Environment</li>
+              <li>Safety & Care</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Indoor Plants</li>
+              <li>Outdoor Plants</li>
+              <li>Kids Activities</li>
+              <li>Events & Celebrations</li>
+              <li>Admissions</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box2">
+          <p>Little Sprouts Nursery</p>
+          <img src="../iamges/logo.png" alt="" />
+          <p>@Since2000</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function openNavbar() {
+        navlinks.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
