@@ -202,6 +202,8 @@ h1 {
   color: white;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  padding: 5px;
 }
 .box1 {
   margin-top: 50px;
