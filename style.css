@@ -203,13 +203,16 @@ h1 {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 10px;
 }
 .box1 {
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.box1 ul li {
+  list-style-type: none;
 }
 footer .footer-container .box2 img {
   height: 100px;
