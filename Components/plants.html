@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plants</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      .plant-container1 {
+        background-image: url(../iamges/plants-banner1.png);
+        background-size: 100% 100%;
+        margin: 0px auto;
+        width: 95%;
+        height: 370px;
+        border-radius: 20px;
+      }
+      .main-hero-container {
+        margin: 0px auto;
+        max-width: 95%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+      .plant-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px,280px));
+        row-gap: 40px;
+        column-gap: 11px;
+        justify-content: center;
+      }
+      .plant-card {
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+        box-shadow: 0px 1px 4px black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+      .plant-image1 {
+        height: 180px;
+        width: 269px;
+        border-radius: 10px;
+        background-size: 100% 100%;
+      }
+      .p1 {
+         background-image: url("https://hips.hearstapps.com/hmg-prod/images/potted-snake-plants-inside-a-beautiful-new-flat-or-royalty-free-image-1727481322.jpg?crop=0.668xw:1.00xh;0.0663xw,0&resize=1120:*");
+      }
+      .p2 {
+         background-image: url("https://plantsguru.com/cdn/shop/files/Money_Plant_Green_-_Good_Luck_Plant.jpg?v=1744915169&width=1500");
+      }
+      .p3 {
+        background-image: url("https://nurserynisarga.in/wp-content/uploads/2019/03/areca.webp");
+      }
+      .p4 {
+        background-image: url("https://vgrgardens.com/wp-content/uploads/2024/11/Chlorophytum-Spider-Plant-Dark-Green-Plant-3.jpg");
+      }
+      .p5 {
+        background-image: url("https://radhakrishnaagriculture.in/cdn/shop/files/peacelily..jpg?v=1709184309&width=1946");
+      }
+      .p6 {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd8EmApo3uCLDRclZDzetMplmP1w1_KeuHb4u1Zxx1vlNIEQowWaDcUas&s=10");
+      }
+      .p7 {
+        background-image: url("https://5.imimg.com/data5/SELLER/Default/2024/4/408259369/SM/VD/ZF/210950953/orange-marigold-flower-500x500.png");
+      }
+      .p8 {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdyrsurd0aCIb8qAgeiGBFHPODv_AEI8gaIS4vi1jgzQ&s=10");
+      }
+      .p9 {
+        background-image: url("https://www.mapro.com/cdn/shop/articles/hibiscus-plant-mapro.jpg?v=1739768891");
+      }
+      .p10 {
+        background-image: url("https://lazygardener.com/cdn/shop/articles/tulsi_plant_2-4177333.png?v=1763076580");
+      }
+      .p11 {
+        background-image: url("https://www.urbanplant.in/cdn/shop/files/Primarywebp_34.webp?v=1773808608");
+      }
+      .p12 {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdosLWeZH7LsmIbWTWiEiBFaVDuX9o7P5wZFDVAvAAQtTqMOkA7tkRPi7M&s=10");
+      }
+
+      @media (max-width: 760px) {
+        .plant-container1{
+            height: 210px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="logo"><img src="../iamges/logo.png" alt="" /></div>
+
+      <div class="options">
+        <ul id="navlinks" class="navlinks">
+          <a href="../index.html"><li>Home</li></a>
+          <a href="../Components/about.html"><li>About</li></a>
+          <a href="../Components/gallery.html"><li>Gallery</li></a>
+          <a href="../Components/plants.html"><li>Plants</li></a>
+          <li>Contact</li>
+          <button>Know Me..</button>
+        </ul>
+      </div>
+      <button class="hamburger-button" onclick="openNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+    <!-- Hero section -->
+
+    <div class="plant-container1"></div>
+    <center><h1 style="margin-top: 30px; margin-bottom: 0px;">Our Plant Collection</h1></center>
+    <center>
+      <p style="margin-bottom: 30px;">Explore a variety of plants for homes, gardens and learning spaces.</p>
+    </center>
+
+    <div class="main-hero-container">
+      <div class="plant-grid">
+        <div class="plant-card">
+          <div class="plant-image1 p1"></div>
+          <center><h3>Snake Plant</h3></center>
+          <center><p>Air purifying amd maintenance plant.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p2"></div>
+          <center><h3>Money Plant</h3></center>
+          <center><p>Adds greenery and positive vibes to any space.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p3"></div>
+          <center><h3>Areca Plant</h3></center>
+          <center><p>Brings fresh air and a tropical touch.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p4"></div>
+          <center><h3>Spider Plant</h3></center>
+          <center><p>East to grow and perfect for indoors.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p5"></div>
+          <center><h3>Peace Lily</h3></center>
+          <center><p>Beautiful flowers with air purifying qualities.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p6"></div>
+          <center><h3>Aloe Vera</h3></center>
+          <center><p>Medicial plant, easy to care and very useful.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p7"></div>
+          <center><h3>Marigold</h3></center>
+          <center><p>Bright flowers that add color to gardens.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p8"></div>
+          <center><h3>Rose Plant</h3></center>
+          <center><p>Classic and beautiful flowering plant.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p9"></div>
+          <center><h3>Hibiscus</h3></center>
+          <center><p>Vibrant blooms that attract butterflies.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p10"></div>
+          <center><h3>Tulsi</h3></center>
+          <center><p>Sacred plant with medicinal benefits.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p11"></div>
+          <center><h3>Jade Plant</h3></center>
+          <center><p>A handy succulent for indoor spaces.</p></center>
+        </div>
+         <div class="plant-card">
+          <div class="plant-image1 p12"></div>
+          <center><h3>Petunia</h3></center>
+          <center><p>Colorful and long-lasting flowers for outdoor gardens.</p></center>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="box1">
+          <div>
+            <ul>
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Our Programs</li>
+              <li>Activities</li>
+              <li>Gallery</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Contact Us</li>
+              <li>Why Choose Us</li>
+              <li>Our Teachers</li>
+              <li>Learning Environment</li>
+              <li>Safety & Care</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Indoor Plants</li>
+              <li>Outdoor Plants</li>
+              <li>Kids Activities</li>
+              <li>Events & Celebrations</li>
+              <li>Admissions</li>
+            </ul>
+          </div>
+        </div>
+        <div class="box2">
+          <p>Little Sprouts Nursery</p>
+          <img src="../iamges/logo.png" alt="" />
+          <p>@Since2000</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function openNavbar() {
+        navlinks.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
